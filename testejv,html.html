@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site das Olimpíadas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .banner {
+            width: 100%;
+            height: 500px;
+            background: url("https://istoe.com.br/wp-content/uploads/2024/03/abertura-olimpiadas-e1712597841160.png") no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner img {
+            width: 140px;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background: linear-gradient(45deg, #0000ff, #00ff00); /* Degradê azul para verde */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: rgba(255, 255, 255, 0.3);
+            color: #333;
+        }
+        td {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        img {
+            width: 20px;
+            height: auto;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        .news-container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .news-item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 16px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .news-item img {
+            width: 50%;
+            height: auto;
+            
+        
+        }
+        .news-item h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .news-item p {
+            font-size: 1em;
+            color: #555;
+        }
+        .buttonViewMore {
+            display: inline-block;
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .buttonViewMore p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <section class="banner">
+        <img src="https://olympics.com/_pr/topic-assets/paris-2024/emblem-oly.svg" alt="">
+    </section>
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th></th>
+                <th><img class="medalhas" src="https://img.icons8.com/?size=100&id=BG0raGiettHF&format=png&color=000000" alt="Ouro"></th>
+                <th><img class="medalhas" src="https://img.icons8.com/?size=100&id=1QVqEll3AmyP&format=png&color=000000" alt="Prata"></th>
+                <th><img class="medalhas" src="https://img.icons8.com/?size=100&id=lMwvkoCmvpSJ&format=png&color=000000" alt="Bronze"></th>
+                <th><img class="medalhas" src="https://img.icons8.com/?size=100&id=dLNUgT4k6wsk&format=png&color=000000" alt="Total"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><img src="https://flagcdn.com/us.svg" alt="EUA"> Estados Unidos</td>
+                <td>40</td>
+                <td>44</td>
+                <td>42</td>
+                <td>126</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="https://flagcdn.com/cn.svg" alt="China"> China</td>
+                <td>40</td>
+                <td>27</td>
+                <td>24</td>
+                <td>91</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="https://flagcdn.com/jp.svg" alt="Japão"> Japão</td>
+                <td>20</td>
+                <td>12</td>
+                <td>13</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td><img src="https://flagcdn.com/br.svg" alt="Brasil"> Brasil</td>
+                <td>3</td>
+                <td>7</td>
+                <td>10</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+    <a class="buttonViewMore" href="https://olympics.com/pt/paris-2024/medalhas" target="_blank">
+        <p>Ver mais</p>
+    </a>
+    
+    <div class="news-container">
+        <div class="news-item">
+            <img src="https://s2-oglobo.glbimg.com/aLPTqUfzn_GpbVCNAUmdQ9GJ-zM=/0x0:4160x2910/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/N/U/r2PzCuSmyjizfKaEBfYQ/sktfem-gn-2024.07.28-1876-1-.jpg" alt="Rayssa Leal">
+            <h3>Rayssa Leal conquista medalha</h3>
+            <p>Descrição: Rayssa Leal é o grande nome do Brasil para o skate street nos Jogos Olímpicos Paris 2024. A brasileira esteve em ação na Arena La Concorde 3 no dia 28 de julho, e conquistou a medalha de bronze.</p>
+            <a href="noticia.1.jv.html" target="_blank">
+                <div class="buttonViewMore">
+                    <p>Ver mais</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="news-item">
+            <img src="https://th.bing.com/th/id/OIP.sTQ7Q9GwFO5Bhi7pvbiC5wHaE3?rs=1&pid=ImgDetMain" alt="Notícia 3">
+            <h3>Gabriel Medina conquista medalha</h3>
+            <p>Gabriel Medina brilha novamente ao conquistar uma medalha no surf nos Jogos Olímpicos Paris 2024. A performance de Medina foi um destaque importante para o Brasil na competição.</p>
+            <a href="noticia,2,jv.html" target="_blank">
+                <div class="buttonViewMore">
+                    <p>Ver mais</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
